@@ -84,13 +84,36 @@ In this exercise, you will use `curl` to send both `GET` and `POST` requests to 
 ## Questions
 
 1. What is the difference between the `-X` and `-d` flags in curl?
+
+?
+
 2. What happens when you send a request with the wrong `Content-Type` header?
+
+You get a HTML respond with "Application Error" as title.
+
 3. What does HTTP 404 mean? When do you encounter it with public APIs?
+
+not found
+
 4. Why does the JSONPlaceholder API return an `id` even though it doesn't store data persistently?
+
+?
+
 5. How does `curl` differ from a graphical web browser when accessing resources?
+
+it receives the data as text without graphics and will not interpret markdowns like HTML
+
 6. What is the purpose of specifying `-H "Content-Type: application/json"` in a POST request?
+
+?
+
 7. Why might verbose mode (`-v`) be useful when debugging HTTP requests?
+
+You see mor details and could inspect where an error accured. 
+
 8. What HTTP status codes would indicate client errors? Server errors?
+
+4XX, 5XX
 
 ## Advice
 
